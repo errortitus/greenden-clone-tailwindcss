@@ -19,4 +19,4 @@ Greenden is a responsive e-commerce web application designed for a plant store, 
 * `images/` - Directory containing asset images for plants and headers.
 
 ## 🌐 Live Demo
-*(Add your GitHub Pages or deployment link here once hosted)*
+*(https://errortitus.github.io/greenden-clone-tailwindcss/)*
