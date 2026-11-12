@@ -1,22 +1,34 @@
-# Greenden - Plant Store Web Application 🌿
+# Greenden 🌿
 
-Greenden is a responsive e-commerce web application designed for a plant store, offering a wide range of artificial and natural flowers and indoor plants.
+A responsive, multi-page plant and flower e-commerce storefront built with HTML5, Tailwind CSS, and vanilla JavaScript.
 
-## 🚀 Features
-* **Responsive Design:** Fully optimized for mobile devices and desktops using Tailwind CSS.
-* **Multi-page Layout:** Includes a Home page, a Product catalog page, and an interactive Contact page.
-* **Interactive UI Elements:** Responsive navigation bars, hover effects, product grid layouts, and clean subscription forms.
+## ✨ Features
 
-## 🛠️ Technologies Used
-* **HTML5**
-* **Tailwind CSS**
+* **Fully Responsive Design:** Adapts seamlessly across mobile, tablet, and desktop screens using Tailwind CSS utility classes[cite: 1, 2, 3].
+* **Interactive Mobile Side-Navigation:** Slide-out drawer menu triggered by a hamburger icon for mobile viewports[cite: 1, 2, 3].
+* **Real-Time Product Search:** Instant client-side filtering on the Products page allowing users to search through the plant catalog dynamically[cite: 3].
+* **Multi-Page Architecture:**
+  * **Home (`index.html`):** Hero banner, About Us highlights, Best Sellers showcase, Customer Reviews, and a Newsletter signup section.
+  * **Products (`product.html`):** Full plant catalog with hover animations and live search bar[cite: 3].
+  * **Contact (`contact.html`):** Styled contact form with Name, Email, Subject, and Message inputs along with Send and Reset actions[cite: 1].
 
-## 📂 Project Structure
-* `index.html` - The landing page featuring best sellers, customer reviews, and about section.
-* `product.html` - The product showcase page with a search bar and plant catalog.
-* `contact.html` - The customer contact form page.
-* `src/output.css` - Compiled Tailwind CSS stylesheet.
-* `images/` - Directory containing asset images for plants and headers.
+## 🛠️ Tech Stack
+
+* **HTML5** – Semantic page structure[cite: 1, 2, 3]
+* **Tailwind CSS** – Utility-first styling, responsive grids, and transitions[cite: 1, 2, 3]
+* **JavaScript (ES6)** – DOM manipulation for the mobile navigation drawer and live product filtering[cite: 1, 2, 3]
+
+## 📁 Project Structure
+
+```text
+greenden/
+├── images/               # Product and hero section images
+├── src/
+│   └── output.css        # Compiled Tailwind CSS stylesheet
+├── index.html            # Landing / Home page
+├── product.html          # Product catalog & search page
+├── contact.html          # Contact form page
+└── README.md             # Project documentation
 
 ## 🌐 Live Demo
-*(Add your GitHub Pages or deployment link here once hosted)*
+*(https://errortitus.github.io/greenden-clone-tailwindcss/)*
